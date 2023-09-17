@@ -8,5 +8,6 @@ description = "Robust and simple API to initialize arrays"
 keywords = ["array", "arrays", "initialization", "arrayinit"]
 repository = "https://github.com/nirshahar/arrayinit"
 license = "MIT OR Apache-2.0"
+include = ["/Cargo.toml", "/README.md", "/src/**"]
 
 [dependencies]
