@@ -58,7 +58,7 @@ mod tests {
         // Implicit array size, implied by `assert_eq` below.
         // Will NOT compile otherwise.
         let array = arr![|i| i * 2];
-        // assert_eq!(array, [0, 2, 4, 6]);
+        assert_eq!(array, [0, 2, 4, 6]);
     }
 
     #[test]
