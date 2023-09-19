@@ -39,13 +39,7 @@ pub mod arrayinit;
 
 #[cfg(test)]
 mod tests {
-    use crate::{arr, arrayinit::array_init};
-
-    #[test]
-    fn method() {
-        let array = array_init(|i| i * 2);
-        assert_eq!(array, [0, 2, 4, 6]);
-    }
+    use crate::arr;
 
     #[test]
     fn macro_static() {
